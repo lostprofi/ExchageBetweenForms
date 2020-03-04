@@ -1,0 +1,24 @@
+.formOut {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(88, 118, 184);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 50px;
+
+    @media screen and (max-width: 575px) {
+        padding: 10px;
+    }
+
+    >h1 {
+        color: rgb(255,255,255);
+        text-align: center;
+    }
+
+    >p {
+        margin-bottom: 20px;
+        padding: 5px;
+        color: rgb(255,255,255);
+    }
+}

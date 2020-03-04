@@ -1,0 +1,35 @@
+.formIn {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 500px;
+    width: 400px;
+    padding: 50px;
+    background-color: rgb(146, 189, 160);
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 575px) {
+        padding: 10px;
+        margin-right: 10px;
+    }
+
+    >h1 {
+        color: rgb(255,255,255);
+        text-align: center;  
+    }
+
+    &__input {
+        height: 40px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border: none;
+        padding: 5px;
+
+        &_submit {
+            cursor: pointer;
+            &:hover {
+                background-color: rgb(146, 112, 168);
+            }
+        }
+    }
+}
