@@ -14,6 +14,7 @@ const FormIn = (props) => {
         placeholder="First name"
         onChange={prop.onChange}
         value={prop.value}
+        required
       />
       <input
         className="formIn__input"
@@ -22,6 +23,7 @@ const FormIn = (props) => {
         placeholder="Second name"
         onChange={prop.onChange}
         value={prop.value}
+        required
       />
       <input
         className="formIn__input"
@@ -30,6 +32,7 @@ const FormIn = (props) => {
         placeholder="e-mail"
         onChange={prop.onChange}
         value={prop.value}
+        required
       />
       <input
         className="formIn__input formIn__input_submit"
