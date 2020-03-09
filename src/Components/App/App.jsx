@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link, Switch, Route } from 'react-router-dom';
 import FormIn from '../FormIn/FormIn';
 import FormOut from '../FormOut/FormOut';
 import './App.scss';
@@ -40,10 +41,33 @@ const App = () => {
 
   return (
     <div className="wrapper">
-      <h1 className="header">{header}</h1>
+      <ul className="nav">
+        <li className="nav__list">
+          <Link to="/" className="nav__link">Home</Link>
+        </li>
+        <li className="nav__list">
+          <Link to="/input" className="nav__link">Input form</Link>
+        </li>
+        <li className="nav__list">
+          <Link to="/output" className="nav__link">Output form</Link>
+        </li>
+      </ul>
       <div className="container">
-        <FormIn onChange={handleChange} onSubmit={handleSubmit} />
-        <FormOut text={form} />
+        <Switch>
+          <Route
+            exact
+            path="/"
+            render={() => <h1 className="header">{header}</h1>}
+          />
+          <Route path="/input">
+            <FormIn onChange={handleChange} onSubmit={handleSubmit} />
+          </Route>
+          <Route path="/output">
+            <FormOut text={form} />
+          </Route>
+        </Switch>
+
+
       </div>
     </div>
   );
