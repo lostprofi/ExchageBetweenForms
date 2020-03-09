@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ExchageBetweenForms/static/css/main.9c0d47d6.chunk.css",
-    "main.js": "/ExchageBetweenForms/static/js/main.e865d033.chunk.js",
-    "main.js.map": "/ExchageBetweenForms/static/js/main.e865d033.chunk.js.map",
+    "main.js": "/ExchageBetweenForms/static/js/main.241792c0.chunk.js",
+    "main.js.map": "/ExchageBetweenForms/static/js/main.241792c0.chunk.js.map",
     "runtime-main.js": "/ExchageBetweenForms/static/js/runtime-main.ab3cc644.js",
     "runtime-main.js.map": "/ExchageBetweenForms/static/js/runtime-main.ab3cc644.js.map",
     "static/js/2.febb7a30.chunk.js": "/ExchageBetweenForms/static/js/2.febb7a30.chunk.js",
     "static/js/2.febb7a30.chunk.js.map": "/ExchageBetweenForms/static/js/2.febb7a30.chunk.js.map",
     "index.html": "/ExchageBetweenForms/index.html",
-    "precache-manifest.218db06a8bbf7f3b5a8ebd8f3c5d7c33.js": "/ExchageBetweenForms/precache-manifest.218db06a8bbf7f3b5a8ebd8f3c5d7c33.js",
+    "precache-manifest.3b81f95172346167c35a7e66887a8eb2.js": "/ExchageBetweenForms/precache-manifest.3b81f95172346167c35a7e66887a8eb2.js",
     "service-worker.js": "/ExchageBetweenForms/service-worker.js",
     "static/css/main.9c0d47d6.chunk.css.map": "/ExchageBetweenForms/static/css/main.9c0d47d6.chunk.css.map",
     "static/js/2.febb7a30.chunk.js.LICENSE.txt": "/ExchageBetweenForms/static/js/2.febb7a30.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ab3cc644.js",
     "static/js/2.febb7a30.chunk.js",
     "static/css/main.9c0d47d6.chunk.css",
-    "static/js/main.e865d033.chunk.js"
+    "static/js/main.241792c0.chunk.js"
   ]
 }
